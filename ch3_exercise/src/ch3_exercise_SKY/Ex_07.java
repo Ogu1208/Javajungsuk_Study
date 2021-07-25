@@ -1,6 +1,6 @@
-package ch3_exercise;
+package ch3_exercise_SKY;
 
-public class Ex_7 {
+public class Ex_07 {
 
 	public static void main(String[] args) {
 		int fahrenheit = 100;

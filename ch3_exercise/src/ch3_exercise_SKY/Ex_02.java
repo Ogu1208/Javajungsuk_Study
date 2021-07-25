@@ -1,6 +1,6 @@
-package ch3_exercise;
+package ch3_exercise_SKY;
 
-public class Ex_2 {
+public class Ex_02 {
 
 	public static void main(String[] args) {
 		int numOfApples = 123; // 사과의 개수

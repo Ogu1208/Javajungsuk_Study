@@ -1,6 +1,6 @@
-package ch3_exercise;
+package ch3_exercise_SKY;
 
-public class Ex_8 {
+public class Ex_08 {
 
 	public static void main(String[] args) {
 		byte a = 10;

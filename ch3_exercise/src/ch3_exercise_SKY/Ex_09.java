@@ -1,6 +1,6 @@
-package ch3_exercise;
+package ch3_exercise_SKY;
 
-public class Ex_9 {
+public class Ex_09 {
 
 	public static void main(String[] args) {
 		char ch = 'z';

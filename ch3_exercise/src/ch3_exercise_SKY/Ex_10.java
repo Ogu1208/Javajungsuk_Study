@@ -1,4 +1,4 @@
-package ch3_exercise;
+package ch3_exercise_SKY;
 
 public class Ex_10 {
 

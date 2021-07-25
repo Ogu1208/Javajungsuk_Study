@@ -1,6 +1,6 @@
-package ch3_exercise;
+package ch3_exercise_SKY;
 
-public class Ex_5 {
+public class Ex_05 {
 
 	public static void main(String[] args) {
 		int num = 333;
