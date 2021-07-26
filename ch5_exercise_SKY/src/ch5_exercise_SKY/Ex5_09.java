@@ -22,7 +22,7 @@ public class Ex5_09 {
 			System.out.println();
 			for(int i=0; i < star.length;i++) {
 				for(int j=0; j < star[i].length;j++) {
-				result[j][i]=star[3-i][j];
+				result[j][i]=star[star.length-1-i][j];
 					}
 				}
 			
