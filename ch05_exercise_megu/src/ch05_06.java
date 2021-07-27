@@ -3,20 +3,16 @@ public class ch05_06 {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		int[]score= {79,88,91,33,100,55,95};
+		int[] coinUnit = {500, 100, 50, 10};
+		int money = 2680;
+		System.out.println("money="+money);
 		
-		int max=score[0];
-		int min=score[0];
-		
-		for(int i=1;i<score.length;i++) {
-			if(score[i]>max) {
-				max = score[i];
-			}else if(score[i]<min) {
-				min = score[i];
-			}
+		int money2;
+		for(int i=0;i<coinUnit.length;i++) {
+			money2 = money/coinUnit[i];
+			money =  money%coinUnit[i];
+			System.out.printf("%d원 : %d%n", coinUnit[i], money2);
 		}
-		System.out.println("최대값 : "+max);
-		System.out.println("최소값 : "+min);
 	}
 
 }
