@@ -1,9 +1,11 @@
 
-public class test2 {
+public class ch03_06 {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		System.out.println("I got KING");
+		int num = 24;
+		System.out.println(10-num%10);
+
 	}
 
 }

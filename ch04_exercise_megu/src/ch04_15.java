@@ -3,13 +3,17 @@ public class ch04_15 {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		System.out.println("i \t 2*i \t 2*i-1 \t i*i \t 11-i \t i%3 \t i/3");
-		System.out.println("-----------------------------------------------------");
-		
-		for(int i=1;i<=10;i++) {
-			System.out.printf("%d \t %d \t %d \t %d \t %d \t %d \t %d%n",
-					i,2*i,2*i-1,i*i,11-i,i%3,i/3);
+		int number = 12321;
+		int tmp = number;
+		int result =0; // number 변수 를 거꾸로 변환해서 담을 변수
+		while(tmp !=0) {
+			result=tmp%10+result*10;
+			tmp/=10;
 		}
+		if(number == result)
+		System.out.println( number + "는 회문수 입니다.");
+		else
+		System.out.println( number + "는 회문수가 아닙니다."); 
 	}
 
 }

@@ -1,9 +1,11 @@
 
-public class megumi {
+public class ch03_04 {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		System.out.println("왜 메구미냐면...더보기");
+		int num = 111;
+		System.out.println((int)num/100*100);
+
 	}
 
 }

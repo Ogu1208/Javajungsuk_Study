@@ -1,0 +1,9 @@
+[4-1]
+x>10 && x<20
+!(ch=='\t' && ch == ' ')
+ch == 'x' || ch == 'X'
+ch>='0' && ch<= '9'
+(ch>='a' && ch<='z') || (ch>='A' && ch<='Z')
+year%400==0 || (year%4==0 && year%100!=0)
+boolean powerOn == false, if(!powerOn);
+String str = "yes"

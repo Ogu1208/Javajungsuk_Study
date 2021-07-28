@@ -1,15 +1,15 @@
 
-public class ch04_10 {
+public class ch04_09 {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		int num = 12345;
+		String str = "12345";
 		int sum = 0;
-		
-		while(num!=0) {
-			sum+=num%10;
-			num/=10;
+		for(int i=0; i < str.length(); i++) {
+			sum+=str.charAt(i)-48;
 		}
 		System.out.println("sum="+sum);
+
 	}
+
 }
