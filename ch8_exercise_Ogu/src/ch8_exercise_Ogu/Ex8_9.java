@@ -1,4 +1,5 @@
 package ch8_exercise_Ogu;
+// 사용자 정의 예외 클래스
 
 class UnsupportedFuctionException extends RuntimeException{
 	// 에러 코드 값을 저장하기 위한 필드를 추가
