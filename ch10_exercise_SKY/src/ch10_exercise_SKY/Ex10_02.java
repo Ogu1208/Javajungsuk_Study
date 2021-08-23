@@ -6,12 +6,12 @@ import java.text.*;
 public class Ex10_02 {
 
 	static int paycheckCount(Calendar from, Calendar to) {
-		
+		System.out.println(from.equals(to));
 		//1. from 또는 to가 null이면 0을 반환한다.
 		if(from == null || to == null)
 			return 0;
 		
-		//2. from와 to가 같고 날짜가 21일이면 1을 반환한다.\
+		//2. from와 to가 같고 날짜가 21일이면 1을 반환한다.
 		if(from.equals(to) && from.get(Calendar.DAY_OF_MONTH)==21)
 			return 1;
 		
