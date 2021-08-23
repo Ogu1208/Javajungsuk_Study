@@ -1,5 +1,6 @@
 package ch6_exercise_Ogu;
 
+
 import java.util.function.IntPredicate;
 
 public class Ex6_20 {
